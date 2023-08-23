@@ -1,0 +1,56 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-image: linear-gradient(rgb(241, 85, 85),rgb(244, 84, 40));
+}
+#btn
+{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: rgb(75, 121, 75);
+    border:rgb(75, 121, 75) 2px solid ;
+}
+.container
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.box
+{
+    background-color: rgb(125, 167, 62);
+    color: aliceblue;
+    width: 500px;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 30%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#closebtn
+{
+    position: absolute;
+    top: 24%;
+    left: 31%;
+    border-radius: 50%;
+    width: 25px;
+    background-color: rgb(16, 90, 34);
+    color: aliceblue;
+    border:rgb(75, 121, 75) 2px solid ;
+}
